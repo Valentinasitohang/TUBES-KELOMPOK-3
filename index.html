@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-     <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Beranda - Cakeit_Bengkulu</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -9,23 +10,32 @@
       background: linear-gradient(to right, #ede0a3, #fbeee0);
       font-family: 'Segoe UI', sans-serif;
     }
+
     .jumbotron {
       padding: 5rem 2rem;
       background-image: url('https://asset-2.tstatic.net/jabar/foto/bank/images/usaha-kuliner-kue-rumahan-media-sosial-pun-jadi-solusi-pemasaran-di-saat-pandemi.jpg');
       background-size: cover;
+      background-position: center;
       color: rgb(255, 180, 50);
       text-shadow: 1px 1px 4px black;
     }
+
     .nav-link:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">Cakeit_Bengkulu</a>
-      <div class="collapse navbar-collapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
           <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
@@ -37,19 +47,25 @@
     </div>
   </nav>
 
+  <!-- Jumbotron -->
   <div class="jumbotron text-center">
     <h1 class="display-4">Selamat Datang di Cakeit_Bengkulu</h1>
-    <p class="lead">UMKM yang menawarkan berbagai cita rasa dari berbagai jenis dessert yang memiliki cita rasa yang beragam .</p>
+    <p class="lead">UMKM yang menawarkan berbagai jenis dessert dengan cita rasa khas dan beragam.</p>
   </div>
 
+  <!-- Deskripsi UMKM -->
   <div class="container text-center mt-4">
-    <h2>Kenali lebih dekat UMKM kami</h2>
-    <p>Untuk membuat website yang menginformasi kan tentang UMKM ini kami tekah melakukan observasi lagsung ke toko ini sehingga kami bisa mendapetkan informasi lanjutan dari toko ini.
-       Cakeit_Bengkulu adalah UMKM lokal yang menghadirkan beragam pilihan dessert dengan cita rasa khas dari berbagai daerah di Indonesia.
-       Kami berkomitmen untuk menjaga kualitas dan kelezatan setiap produk dengan menggunakan bahan-bahan pilihan dan proses pembuatan yang higienis. 
-       Semua kue dan roti kami dipanggang segar setiap hari untuk memastikan rasa yang autentik dan memuaskan. Melalui dedikasi dan semangat usaha kecil, 
-       kami ingin menghadirkan rasa yang tak hanya enak.</p>
+    <h2>Kenali Lebih Dekat UMKM Kami</h2>
+    <p>
+      Untuk membuat website ini, kami telah melakukan observasi langsung ke toko Cakeit_Bengkulu agar dapat menyampaikan informasi yang akurat.  
+      Cakeit_Bengkulu adalah UMKM lokal yang menghadirkan beragam pilihan dessert dengan cita rasa khas dari berbagai daerah di Indonesia.  
+      Kami berkomitmen menjaga kualitas dan kelezatan setiap produk dengan menggunakan bahan-bahan pilihan serta proses pembuatan yang higienis.  
+      Semua kue dan roti kami dipanggang segar setiap hari untuk memastikan rasa yang autentik dan memuaskan.  
+      Melalui dedikasi dan semangat usaha kecil, kami ingin menghadirkan rasa yang tak hanya enak, tapi juga membekas di hati pelanggan.
+    </p>
   </div>
-    
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
